@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank, jsx-a11y/anchor-is-valid, jsx-a11y/img-redundant-alt, no-unused-vars */
 import React from 'react';
 
 import './Portfolio.css';
@@ -41,8 +42,8 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio Item Title</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>GitHub</a>
-            <a href="https://dribbble.com/alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer noopener">GitHub</a>
+            <a href="https://dribbble.com/alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer noopener">Live Demo</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -61,8 +62,8 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio Item Title</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>GitHub</a>
-            <a href="https://dribbble.com/alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer noopener">GitHub</a>
+            <a href="https://dribbble.com/alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer noopener">Live Demo</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -71,8 +72,8 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio Item Title</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>GitHub</a>
-            <a href="https://dribbble.com/alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer noopener">GitHub</a>
+            <a href="https://dribbble.com/alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer noopener">Live Demo</a>
           </div>
         </article>
       </div>

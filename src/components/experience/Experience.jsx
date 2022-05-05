@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank, jsx-a11y/anchor-is-valid, jsx-a11y/img-redundant-alt, no-unused-vars */
 import React from 'react';
 import { BsPatchCheckFill } from 'react-icons/bs';
 

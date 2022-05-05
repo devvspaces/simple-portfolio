@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank, jsx-a11y/anchor-is-valid, jsx-a11y/img-redundant-alt, no-unused-vars */
 import React, { useRef, useState } from 'react';
 import { MdOutlineMail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
@@ -39,19 +40,19 @@ const Contact = () => {
             <MdOutlineMail className='contact__option-icon' />
             <h4>E-mail</h4>
             <h5 className='text-light'> samolajide20@gmail.com</h5>
-            <a href="mailto:samolajide@gmail.com">Send a message</a>
+            <a href="mailto:samolajide@gmail.com" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messanger</h4>
             <h5 className='text-light'>Afolabi Olajide Samuel</h5>
-            <a href="https://m.me/afolabiOlajide" target="_blank">Send a message</a>
+            <a href="https://m.me/afolabiOlajide" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon' />
             <h4>whatsapp</h4>
             <h5 className='text-light'>+234 701 3890 879</h5>
-            <a href="https://api.whatsapp.com/send?phone=+2347013890879" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+2347013890879" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* end of conatct options */}

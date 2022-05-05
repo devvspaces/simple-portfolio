@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank, jsx-a11y/anchor-is-valid, jsx-a11y/img-redundant-alt, no-unused-vars */
 import React, { useState } from 'react'
 import { AiFillHome } from 'react-icons/ai'
 import { FaUserAlt } from 'react-icons/fa'
