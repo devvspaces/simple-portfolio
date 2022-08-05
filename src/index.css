@@ -10,13 +10,28 @@
     list-style-type: none;
 }
 
+/* :root{ */
+    /* --transition: all 400ms ease; */
+    /* color */
+    /* --color-bg: rgb(2, 53, 53); */
+    /* --color-bg-variant: rgba(1, 89, 88, 1); */
+    /* --color-primary: rgba(0, 143, 140, 1); */
+    /* --color-primary-variant: rgba(12, 171, 168, 1); */
+    /* --color-white: #fff; */
+    /* --color-light: rgba(201, 227, 227, 0.6); */
+    /* containers */
+    /* --container-width-lg: 75%; */
+    /* --container-width-md: 86%; */
+    /* --container-width-sm: 90%; */
+/* } */
+
 :root{
     --transition: all 400ms ease;
     /* color */
-    --color-bg: rgb(2, 53, 53);
-    --color-bg-variant: rgba(1, 89, 88, 1);
-    --color-primary: rgba(0, 143, 140, 1);
-    --color-primary-variant: rgba(12, 171, 168, 1);
+    --color-bg: #2D3142; 
+    --color-bg-variant: #363C4F;
+    --color-primary: #00B388; /* more dark*/
+    --color-primary-variant: #5FECBE; /* more light*/
     --color-white: #fff;
     --color-light: rgba(201, 227, 227, 0.6);
     /* containers */

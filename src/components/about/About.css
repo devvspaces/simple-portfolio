@@ -6,7 +6,7 @@
 
 .about__me{
     border-radius: 2rem;
-    background-image: linear-gradient(to top, #023535, #023c3b, #024242, #014948, #01504f, #025b5a, #026665, #037271, #058584, #089998, #0badac, #0fc2c0);
+    background-image: linear-gradient(to right top, #5fecbe, #50d6a9, #41c195, #31ac82, #20986f, #18936b, #0e8f67, #018a63, #02946c, #029e75, #01a97e, #00b388);
     display: grid;
     place-items: center;
 }

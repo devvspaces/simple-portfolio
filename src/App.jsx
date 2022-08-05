@@ -6,8 +6,8 @@ import Nav from './components/nav/Nav';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
-import Testimonial from './components/testimonial/Testimonial';
-import Services from './components/services/Services';
+// import Testimonial from './components/testimonial/Testimonial';
+// import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio'
 
 const App = () => {
@@ -17,9 +17,9 @@ const App = () => {
       <Nav />
       <About />
       <Experience /> 
-      <Services />
+      {/* <Services /> */}
       <Portfolio />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact /> 
       <Footer />
     </>
