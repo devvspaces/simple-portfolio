@@ -22,7 +22,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials" rel="noreferrer">
-        <a href="https://linkedIn.com/in/afolabiolajide" target='_blank' rel="noreferrer noopener"><BsLinkedin/></a>
+        <a href="https://linkedin.com/in/afolabi-olajide" target='_blank' rel="noreferrer noopener"><BsLinkedin/></a>
         <a href="https://github.com/afolabiolajide" target='_blank' rel="noreferrer noopener"><BsGithub/></a>
         <a href="https://twitter.com/officialcipherr" target='_blank' rel="noreferrer noopener"><BsTwitter/></a>
       </div>
