@@ -4,7 +4,8 @@ import React from "react";
 import "./Header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-import me from "../../assets/avtr2.jpg";
+import me from "../../assets/zz.jpeg";
+// import me from "../../assets/avtr2.jpg";
 // import me from '../../assets/main2.png';
 
 const Header = () => {

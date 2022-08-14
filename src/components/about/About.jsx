@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
+// import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 import './About.css'
@@ -27,16 +27,16 @@ const About = () => {
               <small>3+ Years Experience</small>
             </article>
 
-            <article className="about__card"> 
+            {/* <article className="about__card"> 
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
               <small>300+ Worldwide</small>
-            </article>
+            </article> */}
 
             <article className="about__card"> 
               <VscFolderLibrary className='about__icon' />
               <h5>projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
