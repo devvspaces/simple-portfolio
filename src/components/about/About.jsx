@@ -28,10 +28,10 @@ const About = () => {
 						</article>
 
 						{/* <article className="about__card"> 
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>300+ Worldwide</small>
-            </article> */}
+						<FiUsers className='about__icon' />
+						<h5>Clients</h5>
+						<small>300+ Worldwide</small>
+						</article> */}
 
 						<article className="about__card">
 							<VscFolderLibrary className="about__icon" />
@@ -41,12 +41,15 @@ const About = () => {
 					</div>
 
 					<p>
-            I am a very passionate and dedicated web developer, and apart from 
-            coding I also love to play video games, read books and listen to music.
-            I love learning new things and I am always looking for new ways to 
-            improve my skills.
-            My goal is to be a full stack web developer, but presently I love developing 
-            cool front-end designs with great aesthetics.
+						I am a very passionate and dedicated web developer, and
+						apart from coding I also love to play video games, read
+						books and listen to music. I love learning new things
+						and I am always looking for new ways to improve my
+						skills. My goal is to be a full stack web developer, but
+						presently I love developing cool front-end designs with
+						great aesthetics.
+						<br />
+						I am also know as "Cipherr" pronounced as cypher.
 					</p>
 
 					<a href="#contact" className="btn btn-primary">

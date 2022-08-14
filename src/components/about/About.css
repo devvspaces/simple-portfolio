@@ -9,6 +9,7 @@
     background-image: linear-gradient(to right top, #5fecbe, #50d6a9, #41c195, #31ac82, #20986f, #18936b, #0e8f67, #018a63, #02946c, #029e75, #01a97e, #00b388);
     display: grid;
     place-items: center;
+    height: fit-content;
 }
 
 .about__me-image{
