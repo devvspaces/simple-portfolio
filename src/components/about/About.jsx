@@ -49,7 +49,7 @@ const About = () => {
 						presently I love developing cool front-end designs with
 						great aesthetics.
 						<br />
-						I am also know as "Cipherr" pronounced as cypher.
+						I am also known as "Cipherr" pronounced as cypher.
 					</p>
 
 					<a href="#contact" className="btn btn-primary">
