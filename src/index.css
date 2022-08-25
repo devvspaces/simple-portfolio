@@ -125,6 +125,10 @@ img{
     object-fit: cover;
 }
 
+.mini-footer{
+    text-align: center;
+}
+
 
 /* MEDIA QUERY (MEDIUM DEVICES) */
 

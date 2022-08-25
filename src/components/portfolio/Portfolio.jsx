@@ -6,8 +6,6 @@ import img1 from '../../assets/projects-img/weatherinfo-shot.png'
 import img2 from '../../assets/projects-img/dashboard-demo-shot.png'
 import img3 from '../../assets/projects-img/sunny-cosmetics-shot.png'
 import img4 from '../../assets/projects-img/color-library-shot.png'
-import img5 from '../../assets/portfolio5.webp'
-import img6 from '../../assets/portfolio6.webp'
 
 const Portfolio = () => {
   return (

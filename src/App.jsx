@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
+// import Footer from './components/footer/Footer';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
@@ -22,7 +22,10 @@ const App = () => {
       <Portfolio />
       {/* <Testimonial /> */}
       <Contact /> 
-      <Footer />
+      {/* <Footer /> */}
+      <div className="mini-footer">
+        Made with ❤️ from Cipherr.
+      </div>
     </>
   )
 }
