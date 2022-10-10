@@ -6,6 +6,7 @@ import img1 from '../../assets/projects-img/weatherinfo-shot.png'
 import img2 from '../../assets/projects-img/dashboard-demo-shot.png'
 import img3 from '../../assets/projects-img/sunny-cosmetics-shot.png'
 import img4 from '../../assets/projects-img/color-library-shot.png'
+import img5 from '../../assets/projects-img/redux-fakestore-snapshot.png'
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,17 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img5} alt="" />
+          </div>
+          <h3>Fake Store</h3>
+          <p>This is an E-commerce application built with React, Redux and Tailwind CSS. It projects major functionalities of E-commerce applications.</p>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/AfolabiOlajide/Redux-Ecommerce-application" className='btn' target='_blank'>GitHub</a>
+            <a href="https://redux-fakestore.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img1} alt="" />
@@ -58,26 +70,6 @@ const Portfolio = () => {
             <a href="https://color-library.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
-        {/* <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={img5} alt="" />
-          </div>
-          <h3>This is a portfolio Item Title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer noopener">GitHub</a>
-            <a href="https://dribbble.com/alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer noopener">Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={img6} alt="" />
-          </div>
-          <h3>This is a portfolio Item Title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank' rel="noreferrer noopener">GitHub</a>
-            <a href="https://dribbble.com/alien_pixels" className='btn btn-primary' target='_blank' rel="noreferrer noopener">Live Demo</a>
-          </div>
-        </article> */}
       </div>
     </section>
   )
