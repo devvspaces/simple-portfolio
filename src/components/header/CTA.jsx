@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank, jsx-a11y/anchor-is-valid, jsx-a11y/img-redundant-alt, no-unused-vars */
 import React from 'react'
 
-import CV from '../../assets/AFOLABI OLAJIDE CV.pdf';
+import CV from '../../assets/AFOLABI OLAJIDE SAMUEL CV.pdf';
 
 const CTA = () => {
   return (
