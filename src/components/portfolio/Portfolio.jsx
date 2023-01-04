@@ -2,11 +2,11 @@
 import React from 'react';
 
 import './Portfolio.css';
-import img1 from '../../assets/projects-img/weatherinfo-shot.png'
-import img2 from '../../assets/projects-img/dashboard-demo-shot.png'
-import img3 from '../../assets/projects-img/sunny-cosmetics-shot.png'
-import img4 from '../../assets/projects-img/color-library-shot.png'
-import img5 from '../../assets/projects-img/redux-fakestore-snapshot.png'
+import img1 from '../../assets/projects-img/tropical.png'
+import img2 from '../../assets/projects-img/bookay.png'
+import img3 from '../../assets/projects-img/deeplegal.png'
+import img4 from '../../assets/projects-img/aimienpay.png'
+import img5 from '../../assets/projects-img/cyta.png'
 
 const Portfolio = () => {
   return (
@@ -17,57 +17,56 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={img5} alt="" />
-          </div>
-          <h3>Fake Store</h3>
-          <p>This is an E-commerce application built with React, Redux and Tailwind CSS. It projects major functionalities of E-commerce applications.</p>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/AfolabiOlajide/Redux-Ecommerce-application" className='btn' target='_blank'>GitHub</a>
-            <a href="https://redux-fakestore.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
             <img src={img1} alt="" />
           </div>
-          <h3>Weather Info</h3>
-          <p>A Weather application where you can get real-time information on the current weather in any given area.</p>
+          <h3>Real Time Weather App</h3>
+          <p>This is a web and mobile application built with React and Kotlin. The API service is built with FastAPI. I lead a backend team of 8 developers.</p>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/AfolabiOlajide/weatherInfo-v2" className='btn' target='_blank'>GitHub</a>
-            <a href="https://weatherinfo-v2.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/workshopapps/tropicalweather.web" className='btn' target='_blank'>GitHub</a>
+            <a href="https://tropicalweather.app/" className='btn btn-primary' target='_blank'>Visit</a>
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img2} alt="" />
           </div>
-          <h3>Admin Dashboard Design</h3>
-          <p>A Fictional admin dashboard design built for a fictional E-commerce application.</p>
+          <h3>P2P Online Book Store</h3>
+          <p>Bookay is an online book store where you can sell and buy books. I worked on this alone using React and NextJS. All of the project is serverless, no need to manage the database.</p>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/AfolabiOlajide/dashboard-design" className='btn' target='_blank'>GitHub</a>
-            <a href="https://cipherr-dashboard-demo.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/devvspaces/bookay" className='btn' target='_blank'>GitHub</a>
+            <a href="https://bookay.vercel.app/" className='btn btn-primary' target='_blank'>Visit</a>
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img3} alt="" />
           </div>
-          <h3>Sunny Cosmetics</h3>
-          <p>A landing page created for a fictional cosmetics E-commerce website.</p>
+          <h3>Deep Legal</h3>
+          <p>Turbo search engine for United States Laws. This project is mainly built with Django. Full text search and Indexing is powered with PostgreSQL. Smart response is enabled via a trained GPT3 model.</p>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/AfolabiOlajide/sunny-cosmetics" className='btn' target='_blank' rel="noreferrer noopener">GitHub</a>
-            <a href="https://cipherr-sunny-cosmetics.netlify.app/" className='btn btn-primary' target='_blank' rel="noreferrer noopener">Live Demo</a>
+            <a href="https://github.com/SingularityUS" className='btn' target='_blank'>GitHub</a>
+            <a href="https://www.deeplegal.org/" className='btn btn-primary' target='_blank'>Visit</a>
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img4} alt="" />
           </div>
-          <h3>Color Library</h3>
-          <p>A color palette project where you can choose, create and get any color of your choice.</p>
+          <h3>Aimienpay</h3>
+          <p>It can be used to manage business payroll. I developed the interface connecting it to Providus Bank, Deployed it on a VPS, setup CI/CD pipelines for other developers, and setup a Virtual Private Network inteface on Linux for secured connection with Providus.</p>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/AfolabiOlajide/Color-Library" className='btn' target='_blank'>GitHub</a>
-            <a href="https://color-library.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/spacepen-dev/" className='btn' target='_blank' rel="noreferrer noopener">GitHub</a>
+            <a href="https://aimienpay.com/" className='btn btn-primary' target='_blank' rel="noreferrer noopener">Visit</a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img5} alt="" />
+          </div>
+          <h3>Faculty of Agriculture</h3>
+          <p>This is a university web application that keeps track of students, lecturers, and courses. A permission based system is built-in. This is built with Django.</p>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/devvspaces/faculty" className='btn' target='_blank'>GitHub</a>
           </div>
         </article>
       </div>

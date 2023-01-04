@@ -1,5 +1,3 @@
 # My Main Portfolio Application
 
-First created as a demo but when the UI looked interesting, I decided to use it as my main portfolio, well designed UI, great responsiveness and nicely curated.
-
-Here's a link to view: [portfolio](https://cipherr.netlify.app/)
+Kudos to [Cipherr](https://cipherr.netlify.app/) for creating this design and making it available for free. I have made some changes to the design to make it more suitable for my needs. I have also added some new features to the design.

@@ -1,10 +1,10 @@
 import React from "react";
 import { FaAward } from "react-icons/fa";
-// import { FiUsers } from 'react-icons/fi';
+import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from "react-icons/vsc";
 
 import "./About.css";
-import meImg from "../../assets/about-img.jpeg";
+import meImg from "../../assets/about-img.jpg";
 
 const About = () => {
 	return (
@@ -24,32 +24,27 @@ const About = () => {
 						<article className="about__card">
 							<FaAward className="about__icon" />
 							<h5>Experience</h5>
-							<small>3+ Years Experience</small>
+							<small>5+ Years Experience</small>
 						</article>
 
-						{/* <article className="about__card"> 
-						<FiUsers className='about__icon' />
-						<h5>Clients</h5>
-						<small>300+ Worldwide</small>
-						</article> */}
+						<article className="about__card">
+							<FiUsers className='about__icon' />
+							<h5>Clients</h5>
+							<small>30+ Worldwide</small>
+						</article>
 
 						<article className="about__card">
 							<VscFolderLibrary className="about__icon" />
-							<h5>projects</h5>
-							<small>20+ Completed</small>
+							<h5>Projects</h5>
+							<small>40+ Completed</small>
 						</article>
 					</div>
 
 					<p>
-						I am a very passionate and dedicated web developer, and
-						apart from coding I also love to play video games, read
-						books and listen to music. I love learning new things
-						and I am always looking for new ways to improve my
-						skills. My goal is to be a full stack web developer, but
-						presently I love developing cool front-end designs with
-						great aesthetics.
+						Hi, I am a very committed and passionate software engineer, I love brainstorming for new solutions to difficult problems.
+						When I am less busy, I write technical articles, play video games, and checking out new techs. I am currently mining through the blockchain space.
 						<br />
-						I am also known as "Cipherr" pronounced as cypher.
+						Also, I am currently volunteering as a Backend tutor for GDSC (Google Developer Student Club) Program.
 					</p>
 
 					<a href="#contact" className="btn btn-primary">

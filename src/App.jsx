@@ -5,10 +5,11 @@ import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
-import Skills from './components/skills/Skills';
-// import Testimonial from './components/testimonial/Testimonial';
+// import Skills from './components/skills/Skills';
+import Testimonial from './components/testimonial/Testimonial';
 // import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio'
+import Experience from './components/experience/Experience'
 
 const App = () => {
   return (
@@ -16,15 +17,15 @@ const App = () => {
       <Header />
       <Nav />
       <About />
-      {/* <Experience />  */}
-      <Skills />
+      <Experience /> 
+      {/* <Skills /> */}
       {/* <Services /> */}
       <Portfolio />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <Contact /> 
       {/* <Footer /> */}
       <div className="mini-footer">
-        Made with ❤️ from Cipherr.
+        Made with ❤️ from Netrobe.
       </div>
     </>
   )

@@ -36,6 +36,10 @@
     background-color: var(--color-primary-variant) !important ;
 }
 
+.more_reviews {
+    margin-bottom: 1rem;
+}
+
 /* MEDIA QUERY (MEDIUM DEVICES) */
 
 @media screen and (max-width: 1024px) {
