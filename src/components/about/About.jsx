@@ -47,7 +47,7 @@ const About = () => {
                         When I am less busy, I write technical articles, play video games, and checking out new techs.
                     </p>
                     <p>
-                        Also, I am currently volunteering as a Backend tutor for GDSC (Google Developer Student Club) Program, mining through the blockchain space, and learning more about DevOps.
+                        Also, I am leading a Software consulting business, mining through the blockchain space, and learning more about DevOps.
                     </p>
 
                     <a href="#contact" className="btn btn-primary">

@@ -28,7 +28,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineMail className='contact__option-icon' />
             <h4>E-mail</h4>
-            <h5 className='text-light'> sketcherslodge@gmail.com</h5>
+            <h5 className='text-light'>sketcherslodge@gmail.com</h5>
             <a href="mailto:sketcherslodge@gmail.com" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
@@ -42,13 +42,6 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/ayomide-ayanwola/" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
-
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder='Your Full Name' required />
-          <input type="email" name="email" placeholder='Your E-mail Address' required  />
-          <textarea name="message" rows="10" placeholder='Message' required ></textarea>
-          <button type="submit" className='btn btn-primary'>Send a message</button>
-        </form>
       </div>
     </section>
   )

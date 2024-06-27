@@ -29,7 +29,7 @@ const Experience = () => {
         },
         {
             'name': "NodeJS",
-            'level': INTERMEDIATE
+            'level': EXPERIENCED
         },
         {
             'name': "MySQL",
@@ -41,10 +41,14 @@ const Experience = () => {
         },
         {
             'name': "Redis",
-            'level': INTERMEDIATE
+            'level': EXPERIENCED
         },
         {
             'name': "AWS",
+            'level': EXPERIENCED
+        },
+        {
+            'name': "Docker",
             'level': EXPERIENCED
         },
     ]
@@ -64,7 +68,7 @@ const Experience = () => {
         },
         {
             'name': "TypeScript",
-            'level': INTERMEDIATE
+            'level': EXPERIENCED
         },
         {
             'name': "Bootstrap",
@@ -84,7 +88,7 @@ const Experience = () => {
         },
         {
             'name': "Redux",
-            'level': INTERMEDIATE
+            'level': EXPERIENCED
         },
     ]
 
