@@ -34,7 +34,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
-            <a href="https://wa.me/0903329516" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="https://wa.me/09033295156" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <BsLinkedin className='contact__option-icon' />

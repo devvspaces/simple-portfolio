@@ -21,7 +21,7 @@ const App = () => {
       {/* <Skills /> */}
       {/* <Services /> */}
       <Portfolio />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact /> 
       {/* <Footer /> */}
       <div className="mini-footer">

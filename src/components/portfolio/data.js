@@ -5,8 +5,40 @@ import img4 from "../../assets/projects-img/aimienpay.png";
 import img5 from "../../assets/projects-img/cyta.png";
 import img6 from "../../assets/projects-img/newgen.png";
 import img7 from "../../assets/projects-img/signia.png";
+import img8 from "../../assets/projects-img/geoachieve.png";
+import img9 from "../../assets/projects-img/anti-korrupt.png";
+import img10 from "../../assets/projects-img/btstamps.png";
+import img11 from "../../assets/projects-img/patriotai.png";
 
 export const data = [
+  {
+    title: "BtStamp",
+    description: `Developed a decentralized application for secure and immutable digital document timestamps using Bitcoin blockchain technology. The application demonstrates the potential of blockchain technology in creating transparent and trustworthy document authentication systems.`,
+    github: "https://github.com/Zeegaths/btstamps",
+    image: img10,
+    visit: "https://hq7kf-xqaaa-aaaak-ao6va-cai.icp0.io/",
+  },
+  {
+    title: "GeoAchieve",
+    description: "Developed a blockchain-powered educational achievement verification system that mints NFTs with embedded geolocation metadata. The platform creates a global network of verifiable educational accomplishments, leveraging Internet Computer blockchain technology to ensure transparency and authenticity of educational credentials.",
+    github: "https://github.com/devvspaces/geo-achieve",
+    image: img8,
+    visit: "https://2xjsu-diaaa-aaaak-ao4tq-cai.icp0.io/",
+  },
+  {
+    title: "Anti-Korrupt",
+    description: "Designed and implemented an AI-driven educational platform focused on increasing global awareness about corruption. The project was awarded a $10,000 grant from Dfinity, recognizing its innovative approach to educational technology and anti-corruption efforts.",
+    github: "https://github.com/KezzyNgotho/Anti-Korrupt",
+    image: img9,
+    visit: "https://px7id-byaaa-aaaak-albiq-cai.icp0.io/",
+  },
+  {
+    title: "PatriotAI",
+    description: "Created a decentralized learning platform integrating UN anti-corruption resources with blockchain technology and artificial intelligence.",
+    github: "https://github.com/UNKORRUPT/UNKORRUPT",
+    image: img11,
+    visit: "https://kzwfs-haaaa-aaaak-ak3uq-cai.icp0.io/",
+  },
   {
     title: "Real Time Weather App",
     description:

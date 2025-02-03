@@ -16,6 +16,26 @@ const Experience = () => {
             'level': EXPERIENCED
         },
         {
+            'name': "Rust",
+            'level': EXPERIENCED
+        },
+        {
+            'name': "Golang",
+            'level': EXPERIENCED
+        },
+        {
+            'name': "Motoko",
+            'level': EXPERIENCED
+        },
+        {
+            'name': "Move",
+            'level': BASIC
+        },
+        {
+            'name': "NodeJS",
+            'level': EXPERIENCED
+        },
+        {
             'name': "Django",
             'level': EXPERIENCED
         },
@@ -24,19 +44,11 @@ const Experience = () => {
             'level': EXPERIENCED
         },
         {
-            'name': "Selenium",
+            'name': "Flask",
             'level': EXPERIENCED
         },
         {
-            'name': "NodeJS",
-            'level': EXPERIENCED
-        },
-        {
-            'name': "MySQL",
-            'level': EXPERIENCED
-        },
-        {
-            'name': "PostgreSQL",
+            'name': "SQL",
             'level': EXPERIENCED
         },
         {
@@ -44,7 +56,7 @@ const Experience = () => {
             'level': EXPERIENCED
         },
         {
-            'name': "AWS",
+            'name': "DevOps",
             'level': EXPERIENCED
         },
         {
@@ -55,23 +67,11 @@ const Experience = () => {
 
     const frontend_skills = [
         {
-            'name': "HTML",
-            'level': EXPERIENCED
-        },
-        {
-            'name': "CSS",
-            'level': EXPERIENCED
-        },
-        {
             'name': "Javascript",
             'level': EXPERIENCED
         },
         {
             'name': "TypeScript",
-            'level': EXPERIENCED
-        },
-        {
-            'name': "Bootstrap",
             'level': EXPERIENCED
         },
         {
@@ -83,11 +83,11 @@ const Experience = () => {
             'level': EXPERIENCED
         },
         {
-            'name': "Sass",
-            'level': INTERMEDIATE
+            'name': "Redux",
+            'level': EXPERIENCED
         },
         {
-            'name': "Redux",
+            'name': "Svelte",
             'level': EXPERIENCED
         },
     ]
@@ -100,7 +100,7 @@ const Experience = () => {
             <div className="container experience__container">
 
                 <div className="experience__frontend">
-                    <h3>Backend Development</h3>
+                    <h3>Backend Engineering</h3>
                     <div className="experience__content">
                         {
                             backend_skills.map(element => (
@@ -117,7 +117,7 @@ const Experience = () => {
                 </div>
 
                 <div className="experience__frontend">
-                    <h3>FrontEnd Development</h3>
+                    <h3>Frontend Designing</h3>
                     <div className="experience__content">
                         {
                             frontend_skills.map(element => (
