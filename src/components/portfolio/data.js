@@ -9,8 +9,29 @@ import img8 from "../../assets/projects-img/geoachieve.png";
 import img9 from "../../assets/projects-img/anti-korrupt.png";
 import img10 from "../../assets/projects-img/btstamps.png";
 import img11 from "../../assets/projects-img/patriotai.png";
+import img12 from "../../assets/projects-img/haven.png";
+import img13 from "../../assets/projects-img/ronhub.png";
+import img14 from "../../assets/projects-img/fortune-ronin.png";
 
 export const data = [
+  {
+    title: "FortuneRonin",
+    image: img14,
+    description: "Designed a NextJs frontend, NestJs backend, and Solidity smart contract for Fortune Ronin community on the Ronin network to facilitate reward distribution to active members.",
+    visit: "https://fortuneronin.kttylabs.xyz/",
+  },
+  {
+    title: "Havenfort CIC",
+    description: `Developed a amazing landing page for Havenfort CIC, a community interest company dedicated to providing affordable housing solutions.`,
+    image: img12,
+    visit: "https://havenfortcic.co.uk",
+  },
+  {
+    title: "Ronhub",
+    description: "Developed a web3 data aggregation platform that leverages blockchain technology to provide users with real-time insights and analytics on decentralized applications (dApps) and NFT collection on Ronin Chain.",
+    image: img13,
+    visit: "https://www.ronhub.io/",
+  },
   {
     title: "BtStamp",
     description: `Developed a decentralized application for secure and immutable digital document timestamps using Bitcoin blockchain technology. The application demonstrates the potential of blockchain technology in creating transparent and trustworthy document authentication systems.`,
