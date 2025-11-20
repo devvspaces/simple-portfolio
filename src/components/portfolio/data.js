@@ -12,8 +12,15 @@ import img11 from "../../assets/projects-img/patriotai.png";
 import img12 from "../../assets/projects-img/haven.png";
 import img13 from "../../assets/projects-img/ronhub.png";
 import img14 from "../../assets/projects-img/fortune-ronin.png";
+import img15 from "../../assets/projects-img/mint-ktty.png";
 
 export const data = [
+  {
+    title: "Ktty Companion Mint",
+    image: img15,
+    description: "Developed a multiple smart contracts using Solidity for minting Ktty Companion NFTs on the Ronin network, incorporating features such as whitelist management, minting limits, and dual token minting.",
+    visit: "https://mint.kttyworld.io/",
+  },
   {
     title: "FortuneRonin",
     image: img14,
